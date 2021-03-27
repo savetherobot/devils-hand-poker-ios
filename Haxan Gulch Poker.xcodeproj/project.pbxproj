@@ -1,0 +1,1522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112727AC2899F8665A77660E /* libPods-Haxan Gulch PokerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3E48F002CEA084197CDDA7 /* libPods-Haxan Gulch PokerTests.a */; };
+		1A0A51061EC9CB090089D1E8 /* HGPDialogCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0A51051EC9CB090089D1E8 /* HGPDialogCard.m */; };
+		1A0A51091EC9EE430089D1E8 /* HGPCharacterSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0A51081EC9EE430089D1E8 /* HGPCharacterSceneViewController.m */; };
+		1A0A512D1ECA288C0089D1E8 /* PlayerRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0A512C1ECA288C0089D1E8 /* PlayerRecord.m */; };
+		1A0A51301ECA2BA40089D1E8 /* PlayerRecordProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0A512F1ECA2BA40089D1E8 /* PlayerRecordProvider.m */; };
+		1A0F59941F3FC9160012AD21 /* HGPGameDayBaseBallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F59931F3FC9160012AD21 /* HGPGameDayBaseBallViewController.m */; };
+		1A10B2CD1ECB7A4600325B50 /* UIFont+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10B2CC1ECB7A4600325B50 /* UIFont+Extensions.m */; };
+		1A25E2501F86596E00FD0C29 /* char_mayor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E24B1F86596D00FD0C29 /* char_mayor.png */; };
+		1A25E2511F86596E00FD0C29 /* char_widow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E24C1F86596D00FD0C29 /* char_widow.png */; };
+		1A25E2521F86596E00FD0C29 /* char_devil.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E24D1F86596D00FD0C29 /* char_devil.png */; };
+		1A25E2531F86596E00FD0C29 /* char_bum.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E24E1F86596E00FD0C29 /* char_bum.png */; };
+		1A25E2541F86596E00FD0C29 /* char_barkeep.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E24F1F86596E00FD0C29 /* char_barkeep.png */; };
+		1A25E25E1F86597800FD0C29 /* A-D-K_WoodBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2571F86597800FD0C29 /* A-D-K_WoodBG.png */; };
+		1A25E25F1F86597800FD0C29 /* A-D-K_DarkAlley_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2581F86597800FD0C29 /* A-D-K_DarkAlley_Background.png */; };
+		1A25E2601F86597800FD0C29 /* A-D-K_PokerTableBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2591F86597800FD0C29 /* A-D-K_PokerTableBG.png */; };
+		1A25E2611F86597800FD0C29 /* dialog_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E25A1F86597800FD0C29 /* dialog_background.png */; };
+		1A25E2621F86597800FD0C29 /* A-D-K_FireTableBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E25B1F86597800FD0C29 /* A-D-K_FireTableBG.png */; };
+		1A25E2931F86599600FD0C29 /* 10_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2631F86599200FD0C29 /* 10_of_spades.png */; };
+		1A25E2941F86599600FD0C29 /* 9_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2641F86599200FD0C29 /* 9_of_diamonds.png */; };
+		1A25E2951F86599600FD0C29 /* 9_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2651F86599200FD0C29 /* 9_of_spades.png */; };
+		1A25E2961F86599600FD0C29 /* 7_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2661F86599200FD0C29 /* 7_of_diamonds.png */; };
+		1A25E2971F86599600FD0C29 /* 6_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2671F86599200FD0C29 /* 6_of_diamonds.png */; };
+		1A25E2981F86599600FD0C29 /* 10_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2681F86599200FD0C29 /* 10_of_clubs.png */; };
+		1A25E2991F86599600FD0C29 /* king_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2691F86599200FD0C29 /* king_of_spades.png */; };
+		1A25E29A1F86599600FD0C29 /* 3_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E26A1F86599200FD0C29 /* 3_of_clubs.png */; };
+		1A25E29B1F86599600FD0C29 /* 8_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E26B1F86599200FD0C29 /* 8_of_diamonds.png */; };
+		1A25E29C1F86599600FD0C29 /* 4_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E26C1F86599200FD0C29 /* 4_of_clubs.png */; };
+		1A25E29D1F86599600FD0C29 /* 3_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E26D1F86599200FD0C29 /* 3_of_diamonds.png */; };
+		1A25E29E1F86599600FD0C29 /* 2_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E26E1F86599200FD0C29 /* 2_of_clubs.png */; };
+		1A25E29F1F86599600FD0C29 /* jack_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E26F1F86599300FD0C29 /* jack_of_clubs.png */; };
+		1A25E2A01F86599600FD0C29 /* 2_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2701F86599300FD0C29 /* 2_of_spades.png */; };
+		1A25E2A11F86599600FD0C29 /* 7_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2711F86599300FD0C29 /* 7_of_hearts.png */; };
+		1A25E2A21F86599600FD0C29 /* 7_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2721F86599300FD0C29 /* 7_of_clubs.png */; };
+		1A25E2A31F86599600FD0C29 /* 8_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2731F86599300FD0C29 /* 8_of_spades.png */; };
+		1A25E2A41F86599600FD0C29 /* 8_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2741F86599300FD0C29 /* 8_of_clubs.png */; };
+		1A25E2A51F86599600FD0C29 /* jack_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2751F86599300FD0C29 /* jack_of_diamonds.png */; };
+		1A25E2A61F86599600FD0C29 /* 8_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2761F86599300FD0C29 /* 8_of_hearts.png */; };
+		1A25E2A71F86599600FD0C29 /* 5_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2771F86599300FD0C29 /* 5_of_spades.png */; };
+		1A25E2A81F86599600FD0C29 /* jack_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2781F86599300FD0C29 /* jack_of_hearts.png */; };
+		1A25E2A91F86599600FD0C29 /* 10_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2791F86599400FD0C29 /* 10_of_hearts.png */; };
+		1A25E2AA1F86599600FD0C29 /* 10_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E27A1F86599400FD0C29 /* 10_of_diamonds.png */; };
+		1A25E2AB1F86599600FD0C29 /* jack_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E27B1F86599400FD0C29 /* jack_of_spades.png */; };
+		1A25E2AC1F86599600FD0C29 /* queen_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E27C1F86599400FD0C29 /* queen_of_clubs.png */; };
+		1A25E2AD1F86599600FD0C29 /* 5_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E27D1F86599400FD0C29 /* 5_of_clubs.png */; };
+		1A25E2AE1F86599600FD0C29 /* 5_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E27E1F86599400FD0C29 /* 5_of_hearts.png */; };
+		1A25E2AF1F86599600FD0C29 /* king_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E27F1F86599400FD0C29 /* king_of_clubs.png */; };
+		1A25E2B01F86599600FD0C29 /* 7_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2801F86599400FD0C29 /* 7_of_spades.png */; };
+		1A25E2B11F86599600FD0C29 /* queen_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2811F86599500FD0C29 /* queen_of_diamonds.png */; };
+		1A25E2B21F86599600FD0C29 /* 6_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2821F86599500FD0C29 /* 6_of_hearts.png */; };
+		1A25E2B31F86599600FD0C29 /* 6_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2831F86599500FD0C29 /* 6_of_spades.png */; };
+		1A25E2B41F86599600FD0C29 /* queen_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2841F86599500FD0C29 /* queen_of_spades.png */; };
+		1A25E2B51F86599600FD0C29 /* king_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2851F86599500FD0C29 /* king_of_diamonds.png */; };
+		1A25E2B61F86599600FD0C29 /* 3_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2861F86599500FD0C29 /* 3_of_spades.png */; };
+		1A25E2B71F86599600FD0C29 /* 4_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2871F86599500FD0C29 /* 4_of_hearts.png */; };
+		1A25E2B81F86599600FD0C29 /* 2_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2881F86599500FD0C29 /* 2_of_diamonds.png */; };
+		1A25E2B91F86599600FD0C29 /* 3_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2891F86599500FD0C29 /* 3_of_hearts.png */; };
+		1A25E2BA1F86599600FD0C29 /* 5_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E28A1F86599500FD0C29 /* 5_of_diamonds.png */; };
+		1A25E2BB1F86599600FD0C29 /* king_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E28B1F86599500FD0C29 /* king_of_hearts.png */; };
+		1A25E2BC1F86599600FD0C29 /* queen_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E28C1F86599500FD0C29 /* queen_of_hearts.png */; };
+		1A25E2BD1F86599600FD0C29 /* 6_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E28D1F86599500FD0C29 /* 6_of_clubs.png */; };
+		1A25E2BE1F86599600FD0C29 /* 4_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E28E1F86599500FD0C29 /* 4_of_spades.png */; };
+		1A25E2BF1F86599600FD0C29 /* 9_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E28F1F86599600FD0C29 /* 9_of_clubs.png */; };
+		1A25E2C01F86599600FD0C29 /* 4_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2901F86599600FD0C29 /* 4_of_diamonds.png */; };
+		1A25E2C11F86599600FD0C29 /* 2_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2911F86599600FD0C29 /* 2_of_hearts.png */; };
+		1A25E2C21F86599600FD0C29 /* 9_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2921F86599600FD0C29 /* 9_of_hearts.png */; };
+		1A25E2C81F8659A000FD0C29 /* Title_Widow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2C31F8659A000FD0C29 /* Title_Widow.png */; };
+		1A25E2C91F8659A000FD0C29 /* Title_DevilsTable.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2C41F8659A000FD0C29 /* Title_DevilsTable.png */; };
+		1A25E2CA1F8659A000FD0C29 /* Title_Mayor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2C51F8659A000FD0C29 /* Title_Mayor.png */; };
+		1A25E2CB1F8659A000FD0C29 /* Title_DarkAlley.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2C61F8659A000FD0C29 /* Title_DarkAlley.png */; };
+		1A25E2CC1F8659A000FD0C29 /* Title_BootHeel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2C71F8659A000FD0C29 /* Title_BootHeel.png */; };
+		1A25E2D61F8659B000FD0C29 /* swipe_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2CD1F8659AF00FD0C29 /* swipe_right.png */; };
+		1A25E2D71F8659B000FD0C29 /* ChooseAGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2CE1F8659AF00FD0C29 /* ChooseAGame.png */; };
+		1A25E2D81F8659B000FD0C29 /* golden_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2CF1F8659AF00FD0C29 /* golden_btn.png */; };
+		1A25E2D91F8659B000FD0C29 /* char_indicator_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2D01F8659AF00FD0C29 /* char_indicator_deselected.png */; };
+		1A25E2DA1F8659B000FD0C29 /* char_indicator_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2D11F8659AF00FD0C29 /* char_indicator_selected.png */; };
+		1A25E2DB1F8659B000FD0C29 /* swipe_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2D21F8659B000FD0C29 /* swipe_left.png */; };
+		1A25E2DC1F8659B000FD0C29 /* BetBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2D31F8659B000FD0C29 /* BetBar.png */; };
+		1A25E2DD1F8659B000FD0C29 /* X_out_BTN.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2D41F8659B000FD0C29 /* X_out_BTN.png */; };
+		1A25E2DE1F8659B000FD0C29 /* BetBarButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2D51F8659B000FD0C29 /* BetBarButton.png */; };
+		1A25E2E11F865B5C00FD0C29 /* SquareButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2E01F865B5C00FD0C29 /* SquareButton.png */; };
+		1A25E2E91F865C5A00FD0C29 /* char_barkeep_locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2E71F865C5A00FD0C29 /* char_barkeep_locked.png */; };
+		1A25E2EA1F865C5A00FD0C29 /* char_widow_locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2E81F865C5A00FD0C29 /* char_widow_locked.png */; };
+		1A25E2ED1F865C6200FD0C29 /* char_bum_locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2EB1F865C6200FD0C29 /* char_bum_locked.png */; };
+		1A25E2EE1F865C6200FD0C29 /* char_mayor_locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2EC1F865C6200FD0C29 /* char_mayor_locked.png */; };
+		1A25E2F51F86747400FD0C29 /* game_selection_frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2EF1F86747400FD0C29 /* game_selection_frame.png */; };
+		1A25E2F61F86747400FD0C29 /* ante_label_disabled_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2F01F86747400FD0C29 /* ante_label_disabled_background.png */; };
+		1A25E2F71F86747400FD0C29 /* menu_popup_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2F11F86747400FD0C29 /* menu_popup_button.png */; };
+		1A25E2F81F86747400FD0C29 /* menu_popup_pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2F21F86747400FD0C29 /* menu_popup_pointer.png */; };
+		1A25E2F91F86747400FD0C29 /* menu_popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2F31F86747400FD0C29 /* menu_popup.png */; };
+		1A25E2FA1F86747400FD0C29 /* odd_jobs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2F41F86747400FD0C29 /* odd_jobs.png */; };
+		1A25E2FC1F8677E500FD0C29 /* Spade.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2FB1F8677E500FD0C29 /* Spade.png */; };
+		1A25E2FE1F867A2700FD0C29 /* A-D-K_FineTableBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E2FD1F867A2700FD0C29 /* A-D-K_FineTableBG.png */; };
+		1A25E2FF1F871AE700FD0C29 /* card_back_reveal_to_player.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC7FD001F855CF20013BF64 /* card_back_reveal_to_player.png */; };
+		1A25E3001F871AE900FD0C29 /* card_back_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC7FD011F855CF20013BF64 /* card_back_red.png */; };
+		1A25E3011F871AEB00FD0C29 /* card_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC7FCFF1F855CF20013BF64 /* card_back.png */; };
+		1A25E3031F871BF200FD0C29 /* card_back_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E3021F871BEE00FD0C29 /* card_back_small.png */; };
+		1A25E3051F871CC500FD0C29 /* talk_card_btn_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E3041F871CB800FD0C29 /* talk_card_btn_background.png */; };
+		1A25E30A1F871FA200FD0C29 /* ace_of_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E3061F871F7E00FD0C29 /* ace_of_clubs.png */; };
+		1A25E30B1F871FA500FD0C29 /* ace_of_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E3071F871F8A00FD0C29 /* ace_of_diamonds.png */; };
+		1A25E30C1F871FA800FD0C29 /* ace_of_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E3081F871F9300FD0C29 /* ace_of_hearts.png */; };
+		1A25E30D1F871FAB00FD0C29 /* ace_of_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E3091F871F9D00FD0C29 /* ace_of_spades.png */; };
+		1A25E3101F87A5D200FD0C29 /* A-D-K_IlluminatiTableBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A25E30E1F87A1B900FD0C29 /* A-D-K_IlluminatiTableBG.png */; };
+		1A610E3A1F57962700F062D5 /* HGPCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A610E391F57962700F062D5 /* HGPCreditsViewController.m */; };
+		1A610E3D1F5AE31F00F062D5 /* HGPGameSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A610E3C1F5AE31F00F062D5 /* HGPGameSelectionViewController.m */; };
+		1A6201E61F9EB79700B0CBD7 /* char_indicator_freefloating_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A6201E51F9EB79700B0CBD7 /* char_indicator_freefloating_deselected.png */; };
+		1A6201E81F9EB7A200B0CBD7 /* char_indicator_freefloating_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A6201E71F9EB7A100B0CBD7 /* char_indicator_freefloating_selected.png */; };
+		1A687F681EBE28E300C17E1D /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A687F671EBE28E300C17E1D /* Constants.m */; };
+		1A687F721EBE556B00C17E1D /* HGPGameIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A687F711EBE556B00C17E1D /* HGPGameIntroViewController.m */; };
+		1A7381671F95169B0052E9C5 /* RTF_Logo_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7381661F95169B0052E9C5 /* RTF_Logo_transparent.png */; };
+		1A7C40E51F224F5700715711 /* HGPGameAnacondaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C40E41F224F5700715711 /* HGPGameAnacondaViewController.m */; };
+		1A8538A21F2017B400BD5094 /* HandEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538A11F2017B400BD5094 /* HandEvaluator.m */; };
+		1A8538A51F2019B100BD5094 /* HandEvaluation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538A41F2019B100BD5094 /* HandEvaluation.m */; };
+		1A880DF51F62C0D400B0EF21 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A880DF41F62C0D400B0EF21 /* StoreKit.framework */; };
+		1A880E531F64B41500B0EF21 /* IAPProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A880E521F64B41500B0EF21 /* IAPProvider.m */; };
+		1A8B2DCE1F7183BF0038476C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B2DCD1F7183BF0038476C /* AVFoundation.framework */; };
+		1A8B2DD21F7185550038476C /* Moonlight_Memories.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A8B2DD11F7185550038476C /* Moonlight_Memories.mp3 */; };
+		1A8B2DE21F71D46D0038476C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B2DE11F71D46D0038476C /* CoreMedia.framework */; };
+		1A8B2DE41F71D4730038476C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B2DE31F71D4730038476C /* CoreMotion.framework */; };
+		1A8B2DE61F71D47B0038476C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B2DE51F71D47B0038476C /* SystemConfiguration.framework */; };
+		1A8B2DE81F71D4810038476C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B2DE71F71D4810038476C /* OpenGLES.framework */; };
+		1A91DC971EC0FCA800D5909C /* HGPModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91DC961EC0FCA800D5909C /* HGPModal.m */; };
+		1AAF98241F42678A006F576C /* HGPCardDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF98231F42678A006F576C /* HGPCardDisplay.m */; };
+		1AAF982A1F426AD6006F576C /* HGPTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF98291F426AD6006F576C /* HGPTutorialViewController.m */; };
+		1AAF982D1F45072F006F576C /* BarkProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF982C1F45072F006F576C /* BarkProvider.m */; };
+		1AAF98301F4BC08E006F576C /* HGPBaseSevenCardStudGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF982F1F4BC08E006F576C /* HGPBaseSevenCardStudGameViewController.m */; };
+		1AAF98361F5106C0006F576C /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF98351F5106C0006F576C /* Room.m */; };
+		1AB49FB61E1ADC9C00D41D91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB49FB51E1ADC9C00D41D91 /* main.m */; };
+		1AB49FB91E1ADC9C00D41D91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB49FB81E1ADC9C00D41D91 /* AppDelegate.m */; };
+		1AB49FBC1E1ADC9C00D41D91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB49FBB1E1ADC9C00D41D91 /* ViewController.m */; };
+		1AB49FBF1E1ADC9C00D41D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB49FBD1E1ADC9C00D41D91 /* Main.storyboard */; };
+		1AB49FC21E1ADC9C00D41D91 /* Haxan_Gulch_Poker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AB49FC01E1ADC9C00D41D91 /* Haxan_Gulch_Poker.xcdatamodeld */; };
+		1AB49FC41E1ADC9C00D41D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB49FC31E1ADC9C00D41D91 /* Assets.xcassets */; };
+		1AB49FC71E1ADC9C00D41D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB49FC51E1ADC9C00D41D91 /* LaunchScreen.storyboard */; };
+		1AB49FD21E1ADC9C00D41D91 /* Haxan_Gulch_PokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB49FD11E1ADC9C00D41D91 /* Haxan_Gulch_PokerTests.m */; };
+		1AB49FDD1E1ADC9C00D41D91 /* Haxan_Gulch_PokerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB49FDC1E1ADC9C00D41D91 /* Haxan_Gulch_PokerUITests.m */; };
+		1AB49FED1E1ADDFE00D41D91 /* HGPBaseGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB49FEC1E1ADDFE00D41D91 /* HGPBaseGameViewController.m */; };
+		1AB49FF41E1B2BB200D41D91 /* HGPGameAceyDeuceyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB49FF31E1B2BB200D41D91 /* HGPGameAceyDeuceyViewController.m */; };
+		1AB49FF81E1B2E4E00D41D91 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB49FF71E1B2E4E00D41D91 /* Card.m */; };
+		1AB49FFB1E1B2E5B00D41D91 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB49FFA1E1B2E5B00D41D91 /* Player.m */; };
+		1AD3B0451F8B293C001370E4 /* ante_label_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD3B0441F8B2931001370E4 /* ante_label_background.png */; };
+		1AD3B0471F8E5434001370E4 /* char_devil_locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD3B0461F8E5313001370E4 /* char_devil_locked.png */; };
+		1ADF995B1FBC752300ECE539 /* BetEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF995A1FBC752300ECE539 /* BetEvaluator.m */; };
+		1ADF998F1FBF168B00ECE539 /* libPods-Haxan Gulch Poker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5318AB7112E0276D0DF51 /* libPods-Haxan Gulch Poker.a */; };
+		1AFBD9EC1F7607B0002550EB /* HGPGameHighLowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFBD9EB1F7607B0002550EB /* HGPGameHighLowViewController.m */; };
+		1AFBDA001F789DF0002550EB /* La_Paloma.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1AFBD9FE1F789DF0002550EB /* La_Paloma.mp3 */; };
+		1AFBDA011F789DF0002550EB /* Arabesque.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1AFBD9FF1F789DF0002550EB /* Arabesque.mp3 */; };
+		1AFBDA051F789DF7002550EB /* North_Wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1AFBDA021F789DF7002550EB /* North_Wind.mp3 */; };
+		1AFBDA061F789DF7002550EB /* Spanish_Dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1AFBDA031F789DF7002550EB /* Spanish_Dance.mp3 */; };
+		1AFBDA071F789DF7002550EB /* Ukelele_Lady.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1AFBDA041F789DF7002550EB /* Ukelele_Lady.mp3 */; };
+		1AFBDA0A1F78A3B4002550EB /* HGPGameFollowTheQueenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFBDA081F78A3B3002550EB /* HGPGameFollowTheQueenViewController.m */; };
+		2E8998177D2359A423D01C19 /* libPods-Haxan Gulch PokerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B2506C6FEEB29BDDD54239 /* libPods-Haxan Gulch PokerUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AB49FCE1E1ADC9C00D41D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB49FA91E1ADC9C00D41D91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB49FB01E1ADC9C00D41D91;
+			remoteInfo = "Haxan Gulch Poker";
+		};
+		1AB49FD91E1ADC9C00D41D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB49FA91E1ADC9C00D41D91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB49FB01E1ADC9C00D41D91;
+			remoteInfo = "Haxan Gulch Poker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A0A51041EC9CB090089D1E8 /* HGPDialogCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGPDialogCard.h; path = Views/HGPDialogCard.h; sourceTree = "<group>"; };
+		1A0A51051EC9CB090089D1E8 /* HGPDialogCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGPDialogCard.m; path = Views/HGPDialogCard.m; sourceTree = "<group>"; };
+		1A0A51071EC9EE430089D1E8 /* HGPCharacterSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGPCharacterSceneViewController.h; path = Scenes/HGPCharacterSceneViewController.h; sourceTree = "<group>"; };
+		1A0A51081EC9EE430089D1E8 /* HGPCharacterSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGPCharacterSceneViewController.m; path = Scenes/HGPCharacterSceneViewController.m; sourceTree = "<group>"; };
+		1A0A510A1EC9F6260089D1E8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1A0A510B1ECA0FB00089D1E8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1A0A512B1ECA288C0089D1E8 /* PlayerRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerRecord.h; path = Data/PlayerRecord.h; sourceTree = "<group>"; };
+		1A0A512C1ECA288C0089D1E8 /* PlayerRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerRecord.m; path = Data/PlayerRecord.m; sourceTree = "<group>"; };
+		1A0A512E1ECA2BA40089D1E8 /* PlayerRecordProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerRecordProvider.h; path = Data/PlayerRecordProvider.h; sourceTree = "<group>"; };
+		1A0A512F1ECA2BA40089D1E8 /* PlayerRecordProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerRecordProvider.m; path = Data/PlayerRecordProvider.m; sourceTree = "<group>"; };
+		1A0F59921F3FC9160012AD21 /* HGPGameDayBaseBallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGPGameDayBaseBallViewController.h; path = Games/HGPGameDayBaseBallViewController.h; sourceTree = "<group>"; };
+		1A0F59931F3FC9160012AD21 /* HGPGameDayBaseBallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGPGameDayBaseBallViewController.m; path = Games/HGPGameDayBaseBallViewController.m; sourceTree = "<group>"; };
+		1A10B2CB1ECB7A4600325B50 /* UIFont+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extensions.h"; sourceTree = "<group>"; };
+		1A10B2CC1ECB7A4600325B50 /* UIFont+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extensions.m"; sourceTree = "<group>"; };
+		1A25E24B1F86596D00FD0C29 /* char_mayor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char_mayor.png; sourceTree = "<group>"; };
+		1A25E24C1F86596D00FD0C29 /* char_widow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char_widow.png; sourceTree = "<group>"; };
+		1A25E24D1F86596D00FD0C29 /* char_devil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char_devil.png; sourceTree = "<group>"; };
+		1A25E24E1F86596E00FD0C29 /* char_bum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char_bum.png; sourceTree = "<group>"; };
+		1A25E24F1F86596E00FD0C29 /* char_barkeep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char_barkeep.png; sourceTree = "<group>"; };
+		1A25E2571F86597800FD0C29 /* A-D-K_WoodBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A-D-K_WoodBG.png"; sourceTree = "<group>"; };
+		1A25E2581F86597800FD0C29 /* A-D-K_DarkAlley_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A-D-K_DarkAlley_Background.png"; sourceTree = "<group>"; };
+		1A25E2591F86597800FD0C29 /* A-D-K_PokerTableBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A-D-K_PokerTableBG.png"; sourceTree = "<group>"; };
+		1A25E25A1F86597800FD0C29 /* dialog_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dialog_background.png; sourceTree = "<group>"; };
+		1A25E25B1F86597800FD0C29 /* A-D-K_FireTableBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A-D-K_FireTableBG.png"; path = "Haxan Gulch Poker/Images/Backgrounds/A-D-K_FireTableBG.png"; sourceTree = SOURCE_ROOT; };
+		1A25E2631F86599200FD0C29 /* 10_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10_of_spades.png; sourceTree = "<group>"; };
+		1A25E2641F86599200FD0C29 /* 9_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9_of_diamonds.png; sourceTree = "<group>"; };
+		1A25E2651F86599200FD0C29 /* 9_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9_of_spades.png; sourceTree = "<group>"; };
+		1A25E2661F86599200FD0C29 /* 7_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7_of_diamonds.png; sourceTree = "<group>"; };
+		1A25E2671F86599200FD0C29 /* 6_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_of_diamonds.png; sourceTree = "<group>"; };
+		1A25E2681F86599200FD0C29 /* 10_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10_of_clubs.png; sourceTree = "<group>"; };
+		1A25E2691F86599200FD0C29 /* king_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_of_spades.png; sourceTree = "<group>"; };
+		1A25E26A1F86599200FD0C29 /* 3_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_of_clubs.png; sourceTree = "<group>"; };
+		1A25E26B1F86599200FD0C29 /* 8_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8_of_diamonds.png; sourceTree = "<group>"; };
+		1A25E26C1F86599200FD0C29 /* 4_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_of_clubs.png; sourceTree = "<group>"; };
+		1A25E26D1F86599200FD0C29 /* 3_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_of_diamonds.png; sourceTree = "<group>"; };
+		1A25E26E1F86599200FD0C29 /* 2_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_of_clubs.png; sourceTree = "<group>"; };
+		1A25E26F1F86599300FD0C29 /* jack_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack_of_clubs.png; sourceTree = "<group>"; };
+		1A25E2701F86599300FD0C29 /* 2_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_of_spades.png; sourceTree = "<group>"; };
+		1A25E2711F86599300FD0C29 /* 7_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7_of_hearts.png; sourceTree = "<group>"; };
+		1A25E2721F86599300FD0C29 /* 7_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7_of_clubs.png; sourceTree = "<group>"; };
+		1A25E2731F86599300FD0C29 /* 8_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8_of_spades.png; sourceTree = "<group>"; };
+		1A25E2741F86599300FD0C29 /* 8_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8_of_clubs.png; sourceTree = "<group>"; };
+		1A25E2751F86599300FD0C29 /* jack_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack_of_diamonds.png; sourceTree = "<group>"; };
+		1A25E2761F86599300FD0C29 /* 8_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8_of_hearts.png; sourceTree = "<group>"; };
+		1A25E2771F86599300FD0C29 /* 5_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_of_spades.png; sourceTree = "<group>"; };
+		1A25E2781F86599300FD0C29 /* jack_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack_of_hearts.png; sourceTree = "<group>"; };
+		1A25E2791F86599400FD0C29 /* 10_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10_of_hearts.png; sourceTree = "<group>"; };
+		1A25E27A1F86599400FD0C29 /* 10_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10_of_diamonds.png; sourceTree = "<group>"; };
+		1A25E27B1F86599400FD0C29 /* jack_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack_of_spades.png; sourceTree = "<group>"; };
+		1A25E27C1F86599400FD0C29 /* queen_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_of_clubs.png; sourceTree = "<group>"; };
+		1A25E27D1F86599400FD0C29 /* 5_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_of_clubs.png; sourceTree = "<group>"; };
+		1A25E27E1F86599400FD0C29 /* 5_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_of_hearts.png; sourceTree = "<group>"; };
+		1A25E27F1F86599400FD0C29 /* king_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_of_clubs.png; sourceTree = "<group>"; };
+		1A25E2801F86599400FD0C29 /* 7_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7_of_spades.png; sourceTree = "<group>"; };
+		1A25E2811F86599500FD0C29 /* queen_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_of_diamonds.png; sourceTree = "<group>"; };
+		1A25E2821F86599500FD0C29 /* 6_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_of_hearts.png; sourceTree = "<group>"; };
+		1A25E2831F86599500FD0C29 /* 6_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_of_spades.png; sourceTree = "<group>"; };
+		1A25E2841F86599500FD0C29 /* queen_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_of_spades.png; sourceTree = "<group>"; };
+		1A25E2851F86599500FD0C29 /* king_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_of_diamonds.png; sourceTree = "<group>"; };
+		1A25E2861F86599500FD0C29 /* 3_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_of_spades.png; sourceTree = "<group>"; };
+		1A25E2871F86599500FD0C29 /* 4_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_of_hearts.png; sourceTree = "<group>"; };
+		1A25E2881F86599500FD0C29 /* 2_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_of_diamonds.png; sourceTree = "<group>"; };
+		1A25E2891F86599500FD0C29 /* 3_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_of_hearts.png; sourceTree = "<group>"; };
+		1A25E28A1F86599500FD0C29 /* 5_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_of_diamonds.png; sourceTree = "<group>"; };
+		1A25E28B1F86599500FD0C29 /* king_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_of_hearts.png; sourceTree = "<group>"; };
+		1A25E28C1F86599500FD0C29 /* queen_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_of_hearts.png; sourceTree = "<group>"; };
+		1A25E28D1F86599500FD0C29 /* 6_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_of_clubs.png; sourceTree = "<group>"; };
+		1A25E28E1F86599500FD0C29 /* 4_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_of_spades.png; sourceTree = "<group>"; };
+		1A25E28F1F86599600FD0C29 /* 9_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9_of_clubs.png; sourceTree = "<group>"; };
+		1A25E2901F86599600FD0C29 /* 4_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_of_diamonds.png; sourceTree = "<group>"; };
+		1A25E2911F86599600FD0C29 /* 2_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_of_hearts.png; sourceTree = "<group>"; };
+		1A25E2921F86599600FD0C29 /* 9_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9_of_hearts.png; sourceTree = "<group>"; };
+		1A25E2C31F8659A000FD0C29 /* Title_Widow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title_Widow.png; sourceTree = "<group>"; };
+		1A25E2C41F8659A000FD0C29 /* Title_DevilsTable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title_DevilsTable.png; sourceTree = "<group>"; };
+		1A25E2C51F8659A000FD0C29 /* Title_Mayor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title_Mayor.png; sourceTree = "<group>"; };
+		1A25E2C61F8659A000FD0C29 /* Title_DarkAlley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title_DarkAlley.png; sourceTree = "<group>"; };
+		1A25E2C71F8659A000FD0C29 /* Title_BootHeel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title_BootHeel.png; sourceTree = "<group>"; };
+		1A25E2CD1F8659AF00FD0C29 /* swipe_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swipe_right.png; sourceTree = "<group>"; };
+		1A25E2CE1F8659AF00FD0C29 /* ChooseAGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChooseAGame.png; sourceTree = "<group>"; };
+		1A25E2CF1F8659AF00FD0C29 /* golden_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golden_btn.png; sourceTree = "<group>"; };
+		1A25E2D01F8659AF00FD0C29 /* char_indicator_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char_indicator_deselected.png; sourceTree = "<group>"; };
+		1A25E2D11F8659AF00FD0C29 /* char_indicator_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char_indicator_selected.png; sourceTree = "<group>"; };
+		1A25E2D21F8659B000FD0C29 /* swipe_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swipe_left.png; sourceTree = "<group>"; };
+		1A25E2D31F8659B000FD0C29 /* BetBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BetBar.png; sourceTree = "<group>"; };
+		1A25E2D41F8659B000FD0C29 /* X_out_BTN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X_out_BTN.png; sourceTree = "<group>"; };
+		1A25E2D51F8659B000FD0C29 /* BetBarButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BetBarButton.png; sourceTree = "<group>"; };
+		1A25E2E01F865B5C00FD0C29 /* SquareButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SquareButton.png; sourceTree = "<group>"; };
+		1A25E2E71F865C5A00FD0C29 /* char_barkeep_locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char_barkeep_locked.png; sourceTree = "<group>"; };
+		1A25E2E81F865C5A00FD0C29 /* char_widow_locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char_widow_locked.png; sourceTree = "<group>"; };
+		1A25E2EB1F865C6200FD0C29 /* char_bum_locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char_bum_locked.png; sourceTree = "<group>"; };
+		1A25E2EC1F865C6200FD0C29 /* char_mayor_locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char_mayor_locked.png; sourceTree = "<group>"; };
+		1A25E2EF1F86747400FD0C29 /* game_selection_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_selection_frame.png; sourceTree = "<group>"; };
+		1A25E2F01F86747400FD0C29 /* ante_label_disabled_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ante_label_disabled_background.png; sourceTree = "<group>"; };
+		1A25E2F11F86747400FD0C29 /* menu_popup_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_popup_button.png; sourceTree = "<group>"; };
+		1A25E2F21F86747400FD0C29 /* menu_popup_pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_popup_pointer.png; sourceTree = "<group>"; };
+		1A25E2F31F86747400FD0C29 /* menu_popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_popup.png; sourceTree = "<group>"; };
+		1A25E2F41F86747400FD0C29 /* odd_jobs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = odd_jobs.png; sourceTree = "<group>"; };
+		1A25E2FB1F8677E500FD0C29 /* Spade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spade.png; sourceTree = "<group>"; };
+		1A25E2FD1F867A2700FD0C29 /* A-D-K_FineTableBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A-D-K_FineTableBG.png"; sourceTree = "<group>"; };
+		1A25E3021F871BEE00FD0C29 /* card_back_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_back_small.png; sourceTree = "<group>"; };
+		1A25E3041F871CB800FD0C29 /* talk_card_btn_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = talk_card_btn_background.png; sourceTree = "<group>"; };
+		1A25E3061F871F7E00FD0C29 /* ace_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ace_of_clubs.png; sourceTree = "<group>"; };
+		1A25E3071F871F8A00FD0C29 /* ace_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ace_of_diamonds.png; sourceTree = "<group>"; };
+		1A25E3081F871F9300FD0C29 /* ace_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ace_of_hearts.png; sourceTree = "<group>"; };
+		1A25E3091F871F9D00FD0C29 /* ace_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ace_of_spades.png; sourceTree = "<group>"; };
+		1A25E30E1F87A1B900FD0C29 /* A-D-K_IlluminatiTableBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A-D-K_IlluminatiTableBG.png"; sourceTree = "<group>"; };
+		1A610E381F57962700F062D5 /* HGPCreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGPCreditsViewController.h; path = Scenes/HGPCreditsViewController.h; sourceTree = "<group>"; };
+		1A610E391F57962700F062D5 /* HGPCreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGPCreditsViewController.m; path = Scenes/HGPCreditsViewController.m; sourceTree = "<group>"; };
+		1A610E3B1F5AE31F00F062D5 /* HGPGameSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGPGameSelectionViewController.h; path = Scenes/HGPGameSelectionViewController.h; sourceTree = "<group>"; };
+		1A610E3C1F5AE31F00F062D5 /* HGPGameSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGPGameSelectionViewController.m; path = Scenes/HGPGameSelectionViewController.m; sourceTree = "<group>"; };
+		1A6201E51F9EB79700B0CBD7 /* char_indicator_freefloating_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char_indicator_freefloating_deselected.png; sourceTree = "<group>"; };
+		1A6201E71F9EB7A100B0CBD7 /* char_indicator_freefloating_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char_indicator_freefloating_selected.png; sourceTree = "<group>"; };
+		1A687F661EBE28E300C17E1D /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1A687F671EBE28E300C17E1D /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		1A687F691EBE290000C17E1D /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		1A687F701EBE556B00C17E1D /* HGPGameIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGPGameIntroViewController.h; path = Scenes/HGPGameIntroViewController.h; sourceTree = "<group>"; };
+		1A687F711EBE556B00C17E1D /* HGPGameIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGPGameIntroViewController.m; path = Scenes/HGPGameIntroViewController.m; sourceTree = "<group>"; };
+		1A7381661F95169B0052E9C5 /* RTF_Logo_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RTF_Logo_transparent.png; sourceTree = "<group>"; };
+		1A7C40E31F224F5700715711 /* HGPGameAnacondaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGPGameAnacondaViewController.h; path = Games/HGPGameAnacondaViewController.h; sourceTree = "<group>"; };
+		1A7C40E41F224F5700715711 /* HGPGameAnacondaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGPGameAnacondaViewController.m; path = Games/HGPGameAnacondaViewController.m; sourceTree = "<group>"; };
+		1A85389D1F20176A00BD5094 /* HandEvaluator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HandEvaluator.h; path = Data/HandEvaluator.h; sourceTree = "<group>"; };
+		1A8538A11F2017B400BD5094 /* HandEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HandEvaluator.m; path = Data/HandEvaluator.m; sourceTree = "<group>"; };
+		1A8538A31F2019A300BD5094 /* HandEvaluation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HandEvaluation.h; path = Data/HandEvaluation.h; sourceTree = "<group>"; };
+		1A8538A41F2019B100BD5094 /* HandEvaluation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandEvaluation.m; sourceTree = "<group>"; };
+		1A880DF41F62C0D400B0EF21 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1A880E511F64B41500B0EF21 /* IAPProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAPProvider.h; path = Data/IAPProvider.h; sourceTree = "<group>"; };
+		1A880E521F64B41500B0EF21 /* IAPProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IAPProvider.m; path = Data/IAPProvider.m; sourceTree = "<group>"; };
+		1A8B2DCD1F7183BF0038476C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1A8B2DD11F7185550038476C /* Moonlight_Memories.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Moonlight_Memories.mp3; path = Music/Moonlight_Memories.mp3; sourceTree = "<group>"; };
+		1A8B2DE11F71D46D0038476C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1A8B2DE31F71D4730038476C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1A8B2DE51F71D47B0038476C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1A8B2DE71F71D4810038476C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1A91DC921EBF575200D5909C /* GameDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameDelegate.h; sourceTree = "<group>"; };
+		1A91DC951EC0FCA800D5909C /* HGPModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGPModal.h; path = Views/HGPModal.h; sourceTree = "<group>"; };
+		1A91DC961EC0FCA800D5909C /* HGPModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGPModal.m; path = Views/HGPModal.m; sourceTree = "<group>"; };
+		1AAF98221F42678A006F576C /* HGPCardDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGPCardDisplay.h; path = Views/HGPCardDisplay.h; sourceTree = "<group>"; };
+		1AAF98231F42678A006F576C /* HGPCardDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGPCardDisplay.m; path = Views/HGPCardDisplay.m; sourceTree = "<group>"; };
+		1AAF98281F426AD6006F576C /* HGPTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGPTutorialViewController.h; path = Scenes/HGPTutorialViewController.h; sourceTree = "<group>"; };
+		1AAF98291F426AD6006F576C /* HGPTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGPTutorialViewController.m; path = Scenes/HGPTutorialViewController.m; sourceTree = "<group>"; };
+		1AAF982B1F45072F006F576C /* BarkProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BarkProvider.h; path = Data/BarkProvider.h; sourceTree = "<group>"; };
+		1AAF982C1F45072F006F576C /* BarkProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BarkProvider.m; path = Data/BarkProvider.m; sourceTree = "<group>"; };
+		1AAF982E1F4BC08E006F576C /* HGPBaseSevenCardStudGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGPBaseSevenCardStudGameViewController.h; path = Games/HGPBaseSevenCardStudGameViewController.h; sourceTree = "<group>"; };
+		1AAF982F1F4BC08E006F576C /* HGPBaseSevenCardStudGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGPBaseSevenCardStudGameViewController.m; path = Games/HGPBaseSevenCardStudGameViewController.m; sourceTree = "<group>"; };
+		1AAF98341F5106C0006F576C /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Room.h; path = Types/Room.h; sourceTree = "<group>"; };
+		1AAF98351F5106C0006F576C /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Room.m; path = Types/Room.m; sourceTree = "<group>"; };
+		1AB49FB11E1ADC9C00D41D91 /* Haxan Gulch Poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haxan Gulch Poker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB49FB51E1ADC9C00D41D91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AB49FB71E1ADC9C00D41D91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AB49FB81E1ADC9C00D41D91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AB49FBA1E1ADC9C00D41D91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1AB49FBB1E1ADC9C00D41D91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1AB49FBE1E1ADC9C00D41D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AB49FC11E1ADC9C00D41D91 /* Haxan_Gulch_Poker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Haxan_Gulch_Poker.xcdatamodel; sourceTree = "<group>"; };
+		1AB49FC31E1ADC9C00D41D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AB49FC61E1ADC9C00D41D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AB49FC81E1ADC9C00D41D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB49FCD1E1ADC9C00D41D91 /* Haxan Gulch PokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Haxan Gulch PokerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB49FD11E1ADC9C00D41D91 /* Haxan_Gulch_PokerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Haxan_Gulch_PokerTests.m; sourceTree = "<group>"; };
+		1AB49FD31E1ADC9C00D41D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB49FD81E1ADC9C00D41D91 /* Haxan Gulch PokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Haxan Gulch PokerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB49FDC1E1ADC9C00D41D91 /* Haxan_Gulch_PokerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Haxan_Gulch_PokerUITests.m; sourceTree = "<group>"; };
+		1AB49FDE1E1ADC9C00D41D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB49FEB1E1ADDFE00D41D91 /* HGPBaseGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGPBaseGameViewController.h; path = Games/HGPBaseGameViewController.h; sourceTree = "<group>"; };
+		1AB49FEC1E1ADDFE00D41D91 /* HGPBaseGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGPBaseGameViewController.m; path = Games/HGPBaseGameViewController.m; sourceTree = "<group>"; };
+		1AB49FF21E1B2BB200D41D91 /* HGPGameAceyDeuceyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGPGameAceyDeuceyViewController.h; path = Games/HGPGameAceyDeuceyViewController.h; sourceTree = "<group>"; };
+		1AB49FF31E1B2BB200D41D91 /* HGPGameAceyDeuceyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGPGameAceyDeuceyViewController.m; path = Games/HGPGameAceyDeuceyViewController.m; sourceTree = "<group>"; };
+		1AB49FF61E1B2E4E00D41D91 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Types/Card.h; sourceTree = "<group>"; };
+		1AB49FF71E1B2E4E00D41D91 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Types/Card.m; sourceTree = "<group>"; };
+		1AB49FF91E1B2E5B00D41D91 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Types/Player.h; sourceTree = "<group>"; };
+		1AB49FFA1E1B2E5B00D41D91 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Types/Player.m; sourceTree = "<group>"; };
+		1AC7FCFF1F855CF20013BF64 /* card_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card_back.png; path = "Haxan Gulch Poker/Images/Cards/card_back.png"; sourceTree = SOURCE_ROOT; };
+		1AC7FD001F855CF20013BF64 /* card_back_reveal_to_player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card_back_reveal_to_player.png; path = "Haxan Gulch Poker/Images/Cards/card_back_reveal_to_player.png"; sourceTree = SOURCE_ROOT; };
+		1AC7FD011F855CF20013BF64 /* card_back_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card_back_red.png; path = "Haxan Gulch Poker/Images/Cards/card_back_red.png"; sourceTree = SOURCE_ROOT; };
+		1AD3B0441F8B2931001370E4 /* ante_label_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ante_label_background.png; sourceTree = "<group>"; };
+		1AD3B0461F8E5313001370E4 /* char_devil_locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char_devil_locked.png; sourceTree = "<group>"; };
+		1ADF99591FBC752300ECE539 /* BetEvaluator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BetEvaluator.h; path = Data/BetEvaluator.h; sourceTree = "<group>"; };
+		1ADF995A1FBC752300ECE539 /* BetEvaluator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BetEvaluator.m; path = Data/BetEvaluator.m; sourceTree = "<group>"; };
+		1AFBD9EA1F7607B0002550EB /* HGPGameHighLowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HGPGameHighLowViewController.h; path = Games/HGPGameHighLowViewController.h; sourceTree = "<group>"; };
+		1AFBD9EB1F7607B0002550EB /* HGPGameHighLowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HGPGameHighLowViewController.m; path = Games/HGPGameHighLowViewController.m; sourceTree = "<group>"; };
+		1AFBD9FE1F789DF0002550EB /* La_Paloma.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = La_Paloma.mp3; path = Music/La_Paloma.mp3; sourceTree = "<group>"; };
+		1AFBD9FF1F789DF0002550EB /* Arabesque.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Arabesque.mp3; path = Music/Arabesque.mp3; sourceTree = "<group>"; };
+		1AFBDA021F789DF7002550EB /* North_Wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = North_Wind.mp3; path = Music/North_Wind.mp3; sourceTree = "<group>"; };
+		1AFBDA031F789DF7002550EB /* Spanish_Dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Spanish_Dance.mp3; path = Music/Spanish_Dance.mp3; sourceTree = "<group>"; };
+		1AFBDA041F789DF7002550EB /* Ukelele_Lady.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Ukelele_Lady.mp3; path = Music/Ukelele_Lady.mp3; sourceTree = "<group>"; };
+		1AFBDA081F78A3B3002550EB /* HGPGameFollowTheQueenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGPGameFollowTheQueenViewController.m; path = Games/HGPGameFollowTheQueenViewController.m; sourceTree = "<group>"; };
+		1AFBDA091F78A3B3002550EB /* HGPGameFollowTheQueenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGPGameFollowTheQueenViewController.h; path = Games/HGPGameFollowTheQueenViewController.h; sourceTree = "<group>"; };
+		1B363723393719C966C014A1 /* Pods-Haxan Gulch Poker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haxan Gulch Poker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Haxan Gulch Poker/Pods-Haxan Gulch Poker.debug.xcconfig"; sourceTree = "<group>"; };
+		2C82C8FB4372A8439E86FAFF /* Pods-Haxan Gulch PokerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haxan Gulch PokerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Haxan Gulch PokerUITests/Pods-Haxan Gulch PokerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		78D5318AB7112E0276D0DF51 /* libPods-Haxan Gulch Poker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Haxan Gulch Poker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		811F554572BE6C65AA56F889 /* Pods-Haxan Gulch PokerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haxan Gulch PokerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Haxan Gulch PokerTests/Pods-Haxan Gulch PokerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A891F96564E22573457BEA95 /* Pods-Haxan Gulch PokerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haxan Gulch PokerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Haxan Gulch PokerUITests/Pods-Haxan Gulch PokerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9A35A74BB7F8B845D03E59D /* Pods-Haxan Gulch PokerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haxan Gulch PokerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Haxan Gulch PokerTests/Pods-Haxan Gulch PokerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C195BBEFA8D729CFA2B0A236 /* Pods-Haxan Gulch Poker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haxan Gulch Poker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Haxan Gulch Poker/Pods-Haxan Gulch Poker.release.xcconfig"; sourceTree = "<group>"; };
+		C3B2506C6FEEB29BDDD54239 /* libPods-Haxan Gulch PokerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Haxan Gulch PokerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3E48F002CEA084197CDDA7 /* libPods-Haxan Gulch PokerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Haxan Gulch PokerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB49FAE1E1ADC9C00D41D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8B2DE81F71D4810038476C /* OpenGLES.framework in Frameworks */,
+				1A8B2DE61F71D47B0038476C /* SystemConfiguration.framework in Frameworks */,
+				1A8B2DE41F71D4730038476C /* CoreMotion.framework in Frameworks */,
+				1A8B2DE21F71D46D0038476C /* CoreMedia.framework in Frameworks */,
+				1A8B2DCE1F7183BF0038476C /* AVFoundation.framework in Frameworks */,
+				1ADF998F1FBF168B00ECE539 /* libPods-Haxan Gulch Poker.a in Frameworks */,
+				1A880DF51F62C0D400B0EF21 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB49FCA1E1ADC9C00D41D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112727AC2899F8665A77660E /* libPods-Haxan Gulch PokerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB49FD51E1ADC9C00D41D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8998177D2359A423D01C19 /* libPods-Haxan Gulch PokerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0A512A1ECA286F0089D1E8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1AB49FC01E1ADC9C00D41D91 /* Haxan_Gulch_Poker.xcdatamodeld */,
+				1A0A512B1ECA288C0089D1E8 /* PlayerRecord.h */,
+				1A0A512C1ECA288C0089D1E8 /* PlayerRecord.m */,
+				1A0A512E1ECA2BA40089D1E8 /* PlayerRecordProvider.h */,
+				1A0A512F1ECA2BA40089D1E8 /* PlayerRecordProvider.m */,
+				1A85389D1F20176A00BD5094 /* HandEvaluator.h */,
+				1A8538A11F2017B400BD5094 /* HandEvaluator.m */,
+				1A8538A31F2019A300BD5094 /* HandEvaluation.h */,
+				1A8538A41F2019B100BD5094 /* HandEvaluation.m */,
+				1AAF982B1F45072F006F576C /* BarkProvider.h */,
+				1AAF982C1F45072F006F576C /* BarkProvider.m */,
+				1A880E511F64B41500B0EF21 /* IAPProvider.h */,
+				1A880E521F64B41500B0EF21 /* IAPProvider.m */,
+				1ADF99591FBC752300ECE539 /* BetEvaluator.h */,
+				1ADF995A1FBC752300ECE539 /* BetEvaluator.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		1A687F6F1EBE553400C17E1D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1A687F701EBE556B00C17E1D /* HGPGameIntroViewController.h */,
+				1A687F711EBE556B00C17E1D /* HGPGameIntroViewController.m */,
+				1A610E3B1F5AE31F00F062D5 /* HGPGameSelectionViewController.h */,
+				1A610E3C1F5AE31F00F062D5 /* HGPGameSelectionViewController.m */,
+				1A0A51071EC9EE430089D1E8 /* HGPCharacterSceneViewController.h */,
+				1A0A51081EC9EE430089D1E8 /* HGPCharacterSceneViewController.m */,
+				1AAF98281F426AD6006F576C /* HGPTutorialViewController.h */,
+				1AAF98291F426AD6006F576C /* HGPTutorialViewController.m */,
+				1A610E381F57962700F062D5 /* HGPCreditsViewController.h */,
+				1A610E391F57962700F062D5 /* HGPCreditsViewController.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		1A7381651F9516590052E9C5 /* Branding */ = {
+			isa = PBXGroup;
+			children = (
+				1A7381661F95169B0052E9C5 /* RTF_Logo_transparent.png */,
+			);
+			path = Branding;
+			sourceTree = "<group>";
+		};
+		1A8B2DD01F7185270038476C /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				1AFBDA021F789DF7002550EB /* North_Wind.mp3 */,
+				1AFBDA031F789DF7002550EB /* Spanish_Dance.mp3 */,
+				1AFBDA041F789DF7002550EB /* Ukelele_Lady.mp3 */,
+				1AFBD9FF1F789DF0002550EB /* Arabesque.mp3 */,
+				1AFBD9FE1F789DF0002550EB /* La_Paloma.mp3 */,
+				1A8B2DD11F7185550038476C /* Moonlight_Memories.mp3 */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		1A91DC941EC0A14000D5909C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A91DC951EC0FCA800D5909C /* HGPModal.h */,
+				1A91DC961EC0FCA800D5909C /* HGPModal.m */,
+				1A0A51041EC9CB090089D1E8 /* HGPDialogCard.h */,
+				1A0A51051EC9CB090089D1E8 /* HGPDialogCard.m */,
+				1AAF98221F42678A006F576C /* HGPCardDisplay.h */,
+				1AAF98231F42678A006F576C /* HGPCardDisplay.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1AB49FA81E1ADC9C00D41D91 = {
+			isa = PBXGroup;
+			children = (
+				1AB49FB31E1ADC9C00D41D91 /* Haxan Gulch Poker */,
+				1AB49FD01E1ADC9C00D41D91 /* Haxan Gulch PokerTests */,
+				1AB49FDB1E1ADC9C00D41D91 /* Haxan Gulch PokerUITests */,
+				1AB49FB21E1ADC9C00D41D91 /* Products */,
+				7A7417919B0AFE28B1B4D8DC /* Pods */,
+				A0834EB0963C3B0D2DCE56BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB49FB21E1ADC9C00D41D91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB49FB11E1ADC9C00D41D91 /* Haxan Gulch Poker.app */,
+				1AB49FCD1E1ADC9C00D41D91 /* Haxan Gulch PokerTests.xctest */,
+				1AB49FD81E1ADC9C00D41D91 /* Haxan Gulch PokerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB49FB31E1ADC9C00D41D91 /* Haxan Gulch Poker */ = {
+			isa = PBXGroup;
+			children = (
+				1AC7FCBC1F855A220013BF64 /* Images */,
+				1A8B2DD01F7185270038476C /* Music */,
+				1A0A512A1ECA286F0089D1E8 /* Data */,
+				1AB49FF51E1B2E2800D41D91 /* Types */,
+				1A687F6F1EBE553400C17E1D /* Scenes */,
+				1A91DC941EC0A14000D5909C /* Views */,
+				1AB49FEA1E1ADDE700D41D91 /* Games */,
+				1AB49FB71E1ADC9C00D41D91 /* AppDelegate.h */,
+				1AB49FB81E1ADC9C00D41D91 /* AppDelegate.m */,
+				1AB49FB41E1ADC9C00D41D91 /* Supporting Files */,
+				1A91DC921EBF575200D5909C /* GameDelegate.h */,
+				1A0A510A1EC9F6260089D1E8 /* SceneDelegate.h */,
+				1AB49FBA1E1ADC9C00D41D91 /* ViewController.h */,
+				1AB49FBB1E1ADC9C00D41D91 /* ViewController.m */,
+				1AB49FBD1E1ADC9C00D41D91 /* Main.storyboard */,
+				1AB49FC31E1ADC9C00D41D91 /* Assets.xcassets */,
+				1AB49FC51E1ADC9C00D41D91 /* LaunchScreen.storyboard */,
+				1AB49FC81E1ADC9C00D41D91 /* Info.plist */,
+				1A0A510B1ECA0FB00089D1E8 /* PrefixHeader.pch */,
+			);
+			path = "Haxan Gulch Poker";
+			sourceTree = "<group>";
+		};
+		1AB49FB41E1ADC9C00D41D91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A687F661EBE28E300C17E1D /* Constants.h */,
+				1A687F671EBE28E300C17E1D /* Constants.m */,
+				1AB49FB51E1ADC9C00D41D91 /* main.m */,
+				1A687F691EBE290000C17E1D /* Enums.h */,
+				1A10B2CB1ECB7A4600325B50 /* UIFont+Extensions.h */,
+				1A10B2CC1ECB7A4600325B50 /* UIFont+Extensions.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AB49FD01E1ADC9C00D41D91 /* Haxan Gulch PokerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB49FD11E1ADC9C00D41D91 /* Haxan_Gulch_PokerTests.m */,
+				1AB49FD31E1ADC9C00D41D91 /* Info.plist */,
+			);
+			path = "Haxan Gulch PokerTests";
+			sourceTree = "<group>";
+		};
+		1AB49FDB1E1ADC9C00D41D91 /* Haxan Gulch PokerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB49FDC1E1ADC9C00D41D91 /* Haxan_Gulch_PokerUITests.m */,
+				1AB49FDE1E1ADC9C00D41D91 /* Info.plist */,
+			);
+			path = "Haxan Gulch PokerUITests";
+			sourceTree = "<group>";
+		};
+		1AB49FEA1E1ADDE700D41D91 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				1AB49FEB1E1ADDFE00D41D91 /* HGPBaseGameViewController.h */,
+				1AB49FEC1E1ADDFE00D41D91 /* HGPBaseGameViewController.m */,
+				1AAF982E1F4BC08E006F576C /* HGPBaseSevenCardStudGameViewController.h */,
+				1AAF982F1F4BC08E006F576C /* HGPBaseSevenCardStudGameViewController.m */,
+				1AB49FF21E1B2BB200D41D91 /* HGPGameAceyDeuceyViewController.h */,
+				1AB49FF31E1B2BB200D41D91 /* HGPGameAceyDeuceyViewController.m */,
+				1A7C40E31F224F5700715711 /* HGPGameAnacondaViewController.h */,
+				1A7C40E41F224F5700715711 /* HGPGameAnacondaViewController.m */,
+				1A0F59921F3FC9160012AD21 /* HGPGameDayBaseBallViewController.h */,
+				1A0F59931F3FC9160012AD21 /* HGPGameDayBaseBallViewController.m */,
+				1AFBDA091F78A3B3002550EB /* HGPGameFollowTheQueenViewController.h */,
+				1AFBDA081F78A3B3002550EB /* HGPGameFollowTheQueenViewController.m */,
+				1AFBD9EA1F7607B0002550EB /* HGPGameHighLowViewController.h */,
+				1AFBD9EB1F7607B0002550EB /* HGPGameHighLowViewController.m */,
+			);
+			name = Games;
+			sourceTree = "<group>";
+		};
+		1AB49FF51E1B2E2800D41D91 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				1AB49FF61E1B2E4E00D41D91 /* Card.h */,
+				1AB49FF71E1B2E4E00D41D91 /* Card.m */,
+				1AB49FF91E1B2E5B00D41D91 /* Player.h */,
+				1AB49FFA1E1B2E5B00D41D91 /* Player.m */,
+				1AAF98341F5106C0006F576C /* Room.h */,
+				1AAF98351F5106C0006F576C /* Room.m */,
+			);
+			name = Types;
+			sourceTree = "<group>";
+		};
+		1AC7FCBC1F855A220013BF64 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1A7381651F9516590052E9C5 /* Branding */,
+				1AC7FD0B1F85D23A0013BF64 /* Interface */,
+				1AC7FD021F85CE340013BF64 /* Titles */,
+				1AC7FCC11F855BDF0013BF64 /* Backgrounds */,
+				1AC7FCC01F855BDB0013BF64 /* Characters */,
+				1AC7FCBF1F855BD10013BF64 /* Cards */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1AC7FCBF1F855BD10013BF64 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				1A25E3061F871F7E00FD0C29 /* ace_of_clubs.png */,
+				1A25E3071F871F8A00FD0C29 /* ace_of_diamonds.png */,
+				1A25E3081F871F9300FD0C29 /* ace_of_hearts.png */,
+				1A25E3091F871F9D00FD0C29 /* ace_of_spades.png */,
+				1A25E26E1F86599200FD0C29 /* 2_of_clubs.png */,
+				1A25E2881F86599500FD0C29 /* 2_of_diamonds.png */,
+				1A25E2911F86599600FD0C29 /* 2_of_hearts.png */,
+				1A25E2701F86599300FD0C29 /* 2_of_spades.png */,
+				1A25E26A1F86599200FD0C29 /* 3_of_clubs.png */,
+				1A25E26D1F86599200FD0C29 /* 3_of_diamonds.png */,
+				1A25E2891F86599500FD0C29 /* 3_of_hearts.png */,
+				1A25E2861F86599500FD0C29 /* 3_of_spades.png */,
+				1A25E26C1F86599200FD0C29 /* 4_of_clubs.png */,
+				1A25E2901F86599600FD0C29 /* 4_of_diamonds.png */,
+				1A25E2871F86599500FD0C29 /* 4_of_hearts.png */,
+				1A25E28E1F86599500FD0C29 /* 4_of_spades.png */,
+				1A25E27D1F86599400FD0C29 /* 5_of_clubs.png */,
+				1A25E28A1F86599500FD0C29 /* 5_of_diamonds.png */,
+				1A25E27E1F86599400FD0C29 /* 5_of_hearts.png */,
+				1A25E2771F86599300FD0C29 /* 5_of_spades.png */,
+				1A25E28D1F86599500FD0C29 /* 6_of_clubs.png */,
+				1A25E2671F86599200FD0C29 /* 6_of_diamonds.png */,
+				1A25E2821F86599500FD0C29 /* 6_of_hearts.png */,
+				1A25E2831F86599500FD0C29 /* 6_of_spades.png */,
+				1A25E2721F86599300FD0C29 /* 7_of_clubs.png */,
+				1A25E2661F86599200FD0C29 /* 7_of_diamonds.png */,
+				1A25E2711F86599300FD0C29 /* 7_of_hearts.png */,
+				1A25E2801F86599400FD0C29 /* 7_of_spades.png */,
+				1A25E2741F86599300FD0C29 /* 8_of_clubs.png */,
+				1A25E26B1F86599200FD0C29 /* 8_of_diamonds.png */,
+				1A25E2761F86599300FD0C29 /* 8_of_hearts.png */,
+				1A25E2731F86599300FD0C29 /* 8_of_spades.png */,
+				1A25E28F1F86599600FD0C29 /* 9_of_clubs.png */,
+				1A25E2641F86599200FD0C29 /* 9_of_diamonds.png */,
+				1A25E2921F86599600FD0C29 /* 9_of_hearts.png */,
+				1A25E2651F86599200FD0C29 /* 9_of_spades.png */,
+				1A25E2681F86599200FD0C29 /* 10_of_clubs.png */,
+				1A25E27A1F86599400FD0C29 /* 10_of_diamonds.png */,
+				1A25E2791F86599400FD0C29 /* 10_of_hearts.png */,
+				1A25E2631F86599200FD0C29 /* 10_of_spades.png */,
+				1A25E26F1F86599300FD0C29 /* jack_of_clubs.png */,
+				1A25E2751F86599300FD0C29 /* jack_of_diamonds.png */,
+				1A25E2781F86599300FD0C29 /* jack_of_hearts.png */,
+				1A25E27B1F86599400FD0C29 /* jack_of_spades.png */,
+				1A25E27F1F86599400FD0C29 /* king_of_clubs.png */,
+				1A25E2851F86599500FD0C29 /* king_of_diamonds.png */,
+				1A25E28B1F86599500FD0C29 /* king_of_hearts.png */,
+				1A25E2691F86599200FD0C29 /* king_of_spades.png */,
+				1A25E27C1F86599400FD0C29 /* queen_of_clubs.png */,
+				1A25E2811F86599500FD0C29 /* queen_of_diamonds.png */,
+				1A25E28C1F86599500FD0C29 /* queen_of_hearts.png */,
+				1A25E2841F86599500FD0C29 /* queen_of_spades.png */,
+				1AC7FD011F855CF20013BF64 /* card_back_red.png */,
+				1AC7FD001F855CF20013BF64 /* card_back_reveal_to_player.png */,
+				1A25E3021F871BEE00FD0C29 /* card_back_small.png */,
+				1AC7FCFF1F855CF20013BF64 /* card_back.png */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		1AC7FCC01F855BDB0013BF64 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3B0461F8E5313001370E4 /* char_devil_locked.png */,
+				1A25E2EB1F865C6200FD0C29 /* char_bum_locked.png */,
+				1A25E2EC1F865C6200FD0C29 /* char_mayor_locked.png */,
+				1A25E2E71F865C5A00FD0C29 /* char_barkeep_locked.png */,
+				1A25E2E81F865C5A00FD0C29 /* char_widow_locked.png */,
+				1A25E24F1F86596E00FD0C29 /* char_barkeep.png */,
+				1A25E24E1F86596E00FD0C29 /* char_bum.png */,
+				1A25E24D1F86596D00FD0C29 /* char_devil.png */,
+				1A25E24B1F86596D00FD0C29 /* char_mayor.png */,
+				1A25E24C1F86596D00FD0C29 /* char_widow.png */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		1AC7FCC11F855BDF0013BF64 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				1A25E30E1F87A1B900FD0C29 /* A-D-K_IlluminatiTableBG.png */,
+				1A25E2FD1F867A2700FD0C29 /* A-D-K_FineTableBG.png */,
+				1A25E2581F86597800FD0C29 /* A-D-K_DarkAlley_Background.png */,
+				1A25E25B1F86597800FD0C29 /* A-D-K_FireTableBG.png */,
+				1A25E2591F86597800FD0C29 /* A-D-K_PokerTableBG.png */,
+				1A25E2571F86597800FD0C29 /* A-D-K_WoodBG.png */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		1AC7FD021F85CE340013BF64 /* Titles */ = {
+			isa = PBXGroup;
+			children = (
+				1A25E2C71F8659A000FD0C29 /* Title_BootHeel.png */,
+				1A25E2C61F8659A000FD0C29 /* Title_DarkAlley.png */,
+				1A25E2C41F8659A000FD0C29 /* Title_DevilsTable.png */,
+				1A25E2C51F8659A000FD0C29 /* Title_Mayor.png */,
+				1A25E2C31F8659A000FD0C29 /* Title_Widow.png */,
+			);
+			path = Titles;
+			sourceTree = "<group>";
+		};
+		1AC7FD0B1F85D23A0013BF64 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1A25E2CF1F8659AF00FD0C29 /* golden_btn.png */,
+				1AD3B0441F8B2931001370E4 /* ante_label_background.png */,
+				1A25E2F01F86747400FD0C29 /* ante_label_disabled_background.png */,
+				1A25E2D31F8659B000FD0C29 /* BetBar.png */,
+				1A25E2D51F8659B000FD0C29 /* BetBarButton.png */,
+				1A25E2D01F8659AF00FD0C29 /* char_indicator_deselected.png */,
+				1A25E2D11F8659AF00FD0C29 /* char_indicator_selected.png */,
+				1A6201E51F9EB79700B0CBD7 /* char_indicator_freefloating_deselected.png */,
+				1A6201E71F9EB7A100B0CBD7 /* char_indicator_freefloating_selected.png */,
+				1A25E2CE1F8659AF00FD0C29 /* ChooseAGame.png */,
+				1A25E25A1F86597800FD0C29 /* dialog_background.png */,
+				1A25E2EF1F86747400FD0C29 /* game_selection_frame.png */,
+				1A25E2F11F86747400FD0C29 /* menu_popup_button.png */,
+				1A25E2F21F86747400FD0C29 /* menu_popup_pointer.png */,
+				1A25E2F31F86747400FD0C29 /* menu_popup.png */,
+				1A25E2F41F86747400FD0C29 /* odd_jobs.png */,
+				1A25E2FB1F8677E500FD0C29 /* Spade.png */,
+				1A25E2E01F865B5C00FD0C29 /* SquareButton.png */,
+				1A25E2D21F8659B000FD0C29 /* swipe_left.png */,
+				1A25E2CD1F8659AF00FD0C29 /* swipe_right.png */,
+				1A25E3041F871CB800FD0C29 /* talk_card_btn_background.png */,
+				1A25E2D41F8659B000FD0C29 /* X_out_BTN.png */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		7A7417919B0AFE28B1B4D8DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B363723393719C966C014A1 /* Pods-Haxan Gulch Poker.debug.xcconfig */,
+				C195BBEFA8D729CFA2B0A236 /* Pods-Haxan Gulch Poker.release.xcconfig */,
+				811F554572BE6C65AA56F889 /* Pods-Haxan Gulch PokerTests.debug.xcconfig */,
+				A9A35A74BB7F8B845D03E59D /* Pods-Haxan Gulch PokerTests.release.xcconfig */,
+				2C82C8FB4372A8439E86FAFF /* Pods-Haxan Gulch PokerUITests.debug.xcconfig */,
+				A891F96564E22573457BEA95 /* Pods-Haxan Gulch PokerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0834EB0963C3B0D2DCE56BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B2DE71F71D4810038476C /* OpenGLES.framework */,
+				1A8B2DE51F71D47B0038476C /* SystemConfiguration.framework */,
+				1A8B2DE31F71D4730038476C /* CoreMotion.framework */,
+				1A8B2DE11F71D46D0038476C /* CoreMedia.framework */,
+				1A8B2DCD1F7183BF0038476C /* AVFoundation.framework */,
+				1A880DF41F62C0D400B0EF21 /* StoreKit.framework */,
+				78D5318AB7112E0276D0DF51 /* libPods-Haxan Gulch Poker.a */,
+				CD3E48F002CEA084197CDDA7 /* libPods-Haxan Gulch PokerTests.a */,
+				C3B2506C6FEEB29BDDD54239 /* libPods-Haxan Gulch PokerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AB49FB01E1ADC9C00D41D91 /* Haxan Gulch Poker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB49FE11E1ADC9C00D41D91 /* Build configuration list for PBXNativeTarget "Haxan Gulch Poker" */;
+			buildPhases = (
+				57E9ACBFC9F4B1EA4F02A865 /* [CP] Check Pods Manifest.lock */,
+				1AB49FAD1E1ADC9C00D41D91 /* Sources */,
+				1AB49FAE1E1ADC9C00D41D91 /* Frameworks */,
+				1AB49FAF1E1ADC9C00D41D91 /* Resources */,
+				027555B2C901BE93DD735DFD /* [CP] Embed Pods Frameworks */,
+				F6C31F2B4E6E3DF38B0D259C /* [CP] Copy Pods Resources */,
+				1A880E571F6746BD00B0EF21 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Haxan Gulch Poker";
+			productName = "Haxan Gulch Poker";
+			productReference = 1AB49FB11E1ADC9C00D41D91 /* Haxan Gulch Poker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AB49FCC1E1ADC9C00D41D91 /* Haxan Gulch PokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB49FE41E1ADC9C00D41D91 /* Build configuration list for PBXNativeTarget "Haxan Gulch PokerTests" */;
+			buildPhases = (
+				D8A89CD245DEA2594EB0A752 /* [CP] Check Pods Manifest.lock */,
+				1AB49FC91E1ADC9C00D41D91 /* Sources */,
+				1AB49FCA1E1ADC9C00D41D91 /* Frameworks */,
+				1AB49FCB1E1ADC9C00D41D91 /* Resources */,
+				DA655F7FEBD2AD450CAFB1B8 /* [CP] Embed Pods Frameworks */,
+				6E5B9CDDDCD0D8A656F60884 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB49FCF1E1ADC9C00D41D91 /* PBXTargetDependency */,
+			);
+			name = "Haxan Gulch PokerTests";
+			productName = "Haxan Gulch PokerTests";
+			productReference = 1AB49FCD1E1ADC9C00D41D91 /* Haxan Gulch PokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AB49FD71E1ADC9C00D41D91 /* Haxan Gulch PokerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB49FE71E1ADC9C00D41D91 /* Build configuration list for PBXNativeTarget "Haxan Gulch PokerUITests" */;
+			buildPhases = (
+				C3426C44E6383AADC00F7BAE /* [CP] Check Pods Manifest.lock */,
+				1AB49FD41E1ADC9C00D41D91 /* Sources */,
+				1AB49FD51E1ADC9C00D41D91 /* Frameworks */,
+				1AB49FD61E1ADC9C00D41D91 /* Resources */,
+				6B5054DE51ED4042E0F49069 /* [CP] Embed Pods Frameworks */,
+				1D3CA1CFECA88F2CB8AC9FE8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB49FDA1E1ADC9C00D41D91 /* PBXTargetDependency */,
+			);
+			name = "Haxan Gulch PokerUITests";
+			productName = "Haxan Gulch PokerUITests";
+			productReference = 1AB49FD81E1ADC9C00D41D91 /* Haxan Gulch PokerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB49FA91E1ADC9C00D41D91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Round the Fire Entertainment";
+				TargetAttributes = {
+					1AB49FB01E1ADC9C00D41D91 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = K4V6RQJ7DL;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					1AB49FCC1E1ADC9C00D41D91 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AB49FB01E1ADC9C00D41D91;
+					};
+					1AB49FD71E1ADC9C00D41D91 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AB49FB01E1ADC9C00D41D91;
+					};
+				};
+			};
+			buildConfigurationList = 1AB49FAC1E1ADC9C00D41D91 /* Build configuration list for PBXProject "Haxan Gulch Poker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AB49FA81E1ADC9C00D41D91;
+			productRefGroup = 1AB49FB21E1ADC9C00D41D91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB49FB01E1ADC9C00D41D91 /* Haxan Gulch Poker */,
+				1AB49FCC1E1ADC9C00D41D91 /* Haxan Gulch PokerTests */,
+				1AB49FD71E1ADC9C00D41D91 /* Haxan Gulch PokerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB49FAF1E1ADC9C00D41D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A25E30D1F871FAB00FD0C29 /* ace_of_spades.png in Resources */,
+				1A25E30A1F871FA200FD0C29 /* ace_of_clubs.png in Resources */,
+				1A25E2A51F86599600FD0C29 /* jack_of_diamonds.png in Resources */,
+				1AFBDA051F789DF7002550EB /* North_Wind.mp3 in Resources */,
+				1A25E2CA1F8659A000FD0C29 /* Title_Mayor.png in Resources */,
+				1A25E2611F86597800FD0C29 /* dialog_background.png in Resources */,
+				1A25E2B71F86599600FD0C29 /* 4_of_hearts.png in Resources */,
+				1A25E2F81F86747400FD0C29 /* menu_popup_pointer.png in Resources */,
+				1A25E2C81F8659A000FD0C29 /* Title_Widow.png in Resources */,
+				1A25E2AE1F86599600FD0C29 /* 5_of_hearts.png in Resources */,
+				1A25E2B81F86599600FD0C29 /* 2_of_diamonds.png in Resources */,
+				1A25E2941F86599600FD0C29 /* 9_of_diamonds.png in Resources */,
+				1A25E2BE1F86599600FD0C29 /* 4_of_spades.png in Resources */,
+				1A25E2BB1F86599600FD0C29 /* king_of_hearts.png in Resources */,
+				1A25E2CC1F8659A000FD0C29 /* Title_BootHeel.png in Resources */,
+				1A25E2C91F8659A000FD0C29 /* Title_DevilsTable.png in Resources */,
+				1A25E2B11F86599600FD0C29 /* queen_of_diamonds.png in Resources */,
+				1A25E29A1F86599600FD0C29 /* 3_of_clubs.png in Resources */,
+				1A25E2B61F86599600FD0C29 /* 3_of_spades.png in Resources */,
+				1A25E2A71F86599600FD0C29 /* 5_of_spades.png in Resources */,
+				1A25E29D1F86599600FD0C29 /* 3_of_diamonds.png in Resources */,
+				1A25E2BA1F86599600FD0C29 /* 5_of_diamonds.png in Resources */,
+				1A25E2501F86596E00FD0C29 /* char_mayor.png in Resources */,
+				1A25E2AC1F86599600FD0C29 /* queen_of_clubs.png in Resources */,
+				1A25E3011F871AEB00FD0C29 /* card_back.png in Resources */,
+				1A25E2621F86597800FD0C29 /* A-D-K_FireTableBG.png in Resources */,
+				1A25E2B21F86599600FD0C29 /* 6_of_hearts.png in Resources */,
+				1A25E2C01F86599600FD0C29 /* 4_of_diamonds.png in Resources */,
+				1A25E2AF1F86599600FD0C29 /* king_of_clubs.png in Resources */,
+				1A25E2A61F86599600FD0C29 /* 8_of_hearts.png in Resources */,
+				1A25E2F71F86747400FD0C29 /* menu_popup_button.png in Resources */,
+				1A25E2F61F86747400FD0C29 /* ante_label_disabled_background.png in Resources */,
+				1A25E2EA1F865C5A00FD0C29 /* char_widow_locked.png in Resources */,
+				1A25E2511F86596E00FD0C29 /* char_widow.png in Resources */,
+				1A25E2B31F86599600FD0C29 /* 6_of_spades.png in Resources */,
+				1A25E2991F86599600FD0C29 /* king_of_spades.png in Resources */,
+				1A25E2961F86599600FD0C29 /* 7_of_diamonds.png in Resources */,
+				1A25E2A91F86599600FD0C29 /* 10_of_hearts.png in Resources */,
+				1A25E2AB1F86599600FD0C29 /* jack_of_spades.png in Resources */,
+				1A25E2A01F86599600FD0C29 /* 2_of_spades.png in Resources */,
+				1A25E30B1F871FA500FD0C29 /* ace_of_diamonds.png in Resources */,
+				1A25E2C21F86599600FD0C29 /* 9_of_hearts.png in Resources */,
+				1A25E29F1F86599600FD0C29 /* jack_of_clubs.png in Resources */,
+				1A25E2FC1F8677E500FD0C29 /* Spade.png in Resources */,
+				1A25E2DC1F8659B000FD0C29 /* BetBar.png in Resources */,
+				1AFBDA001F789DF0002550EB /* La_Paloma.mp3 in Resources */,
+				1AB49FC71E1ADC9C00D41D91 /* LaunchScreen.storyboard in Resources */,
+				1A25E2E11F865B5C00FD0C29 /* SquareButton.png in Resources */,
+				1A25E2D81F8659B000FD0C29 /* golden_btn.png in Resources */,
+				1A25E2A21F86599600FD0C29 /* 7_of_clubs.png in Resources */,
+				1A25E2A81F86599600FD0C29 /* jack_of_hearts.png in Resources */,
+				1A25E2971F86599600FD0C29 /* 6_of_diamonds.png in Resources */,
+				1AFBDA011F789DF0002550EB /* Arabesque.mp3 in Resources */,
+				1A25E2FA1F86747400FD0C29 /* odd_jobs.png in Resources */,
+				1A8B2DD21F7185550038476C /* Moonlight_Memories.mp3 in Resources */,
+				1A25E2BC1F86599600FD0C29 /* queen_of_hearts.png in Resources */,
+				1A25E2DE1F8659B000FD0C29 /* BetBarButton.png in Resources */,
+				1A25E2DB1F8659B000FD0C29 /* swipe_left.png in Resources */,
+				1A25E25F1F86597800FD0C29 /* A-D-K_DarkAlley_Background.png in Resources */,
+				1A25E29C1F86599600FD0C29 /* 4_of_clubs.png in Resources */,
+				1AB49FC41E1ADC9C00D41D91 /* Assets.xcassets in Resources */,
+				1A7381671F95169B0052E9C5 /* RTF_Logo_transparent.png in Resources */,
+				1A25E2D71F8659B000FD0C29 /* ChooseAGame.png in Resources */,
+				1A25E2DD1F8659B000FD0C29 /* X_out_BTN.png in Resources */,
+				1A25E2FF1F871AE700FD0C29 /* card_back_reveal_to_player.png in Resources */,
+				1A25E2ED1F865C6200FD0C29 /* char_bum_locked.png in Resources */,
+				1A25E25E1F86597800FD0C29 /* A-D-K_WoodBG.png in Resources */,
+				1A6201E61F9EB79700B0CBD7 /* char_indicator_freefloating_deselected.png in Resources */,
+				1A25E3101F87A5D200FD0C29 /* A-D-K_IlluminatiTableBG.png in Resources */,
+				1A25E2931F86599600FD0C29 /* 10_of_spades.png in Resources */,
+				1A25E2981F86599600FD0C29 /* 10_of_clubs.png in Resources */,
+				1A25E2541F86596E00FD0C29 /* char_barkeep.png in Resources */,
+				1A6201E81F9EB7A200B0CBD7 /* char_indicator_freefloating_selected.png in Resources */,
+				1AB49FBF1E1ADC9C00D41D91 /* Main.storyboard in Resources */,
+				1A25E2E91F865C5A00FD0C29 /* char_barkeep_locked.png in Resources */,
+				1A25E2EE1F865C6200FD0C29 /* char_mayor_locked.png in Resources */,
+				1A25E2FE1F867A2700FD0C29 /* A-D-K_FineTableBG.png in Resources */,
+				1A25E2B01F86599600FD0C29 /* 7_of_spades.png in Resources */,
+				1A25E2CB1F8659A000FD0C29 /* Title_DarkAlley.png in Resources */,
+				1A25E3031F871BF200FD0C29 /* card_back_small.png in Resources */,
+				1A25E2AA1F86599600FD0C29 /* 10_of_diamonds.png in Resources */,
+				1A25E2A31F86599600FD0C29 /* 8_of_spades.png in Resources */,
+				1A25E29E1F86599600FD0C29 /* 2_of_clubs.png in Resources */,
+				1AD3B0471F8E5434001370E4 /* char_devil_locked.png in Resources */,
+				1AFBDA071F789DF7002550EB /* Ukelele_Lady.mp3 in Resources */,
+				1A25E3001F871AE900FD0C29 /* card_back_red.png in Resources */,
+				1A25E2C11F86599600FD0C29 /* 2_of_hearts.png in Resources */,
+				1A25E2AD1F86599600FD0C29 /* 5_of_clubs.png in Resources */,
+				1A25E2BF1F86599600FD0C29 /* 9_of_clubs.png in Resources */,
+				1A25E2951F86599600FD0C29 /* 9_of_spades.png in Resources */,
+				1AD3B0451F8B293C001370E4 /* ante_label_background.png in Resources */,
+				1A25E2D61F8659B000FD0C29 /* swipe_right.png in Resources */,
+				1A25E2521F86596E00FD0C29 /* char_devil.png in Resources */,
+				1A25E2B91F86599600FD0C29 /* 3_of_hearts.png in Resources */,
+				1A25E2BD1F86599600FD0C29 /* 6_of_clubs.png in Resources */,
+				1A25E2B51F86599600FD0C29 /* king_of_diamonds.png in Resources */,
+				1A25E2601F86597800FD0C29 /* A-D-K_PokerTableBG.png in Resources */,
+				1A25E2DA1F8659B000FD0C29 /* char_indicator_selected.png in Resources */,
+				1A25E2F91F86747400FD0C29 /* menu_popup.png in Resources */,
+				1AFBDA061F789DF7002550EB /* Spanish_Dance.mp3 in Resources */,
+				1A25E29B1F86599600FD0C29 /* 8_of_diamonds.png in Resources */,
+				1A25E2B41F86599600FD0C29 /* queen_of_spades.png in Resources */,
+				1A25E2531F86596E00FD0C29 /* char_bum.png in Resources */,
+				1A25E2F51F86747400FD0C29 /* game_selection_frame.png in Resources */,
+				1A25E2D91F8659B000FD0C29 /* char_indicator_deselected.png in Resources */,
+				1A25E2A41F86599600FD0C29 /* 8_of_clubs.png in Resources */,
+				1A25E30C1F871FA800FD0C29 /* ace_of_hearts.png in Resources */,
+				1A25E3051F871CC500FD0C29 /* talk_card_btn_background.png in Resources */,
+				1A25E2A11F86599600FD0C29 /* 7_of_hearts.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB49FCB1E1ADC9C00D41D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB49FD61E1ADC9C00D41D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		027555B2C901BE93DD735DFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haxan Gulch Poker/Pods-Haxan Gulch Poker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A880E571F6746BD00B0EF21 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 36bdeba67c374c7425f9cb01ce1a7058170f9577 0239f2214b71550d9b3c7e4cb56a66a27c43d02315c8a405b9d56e365a9348ef";
+		};
+		1D3CA1CFECA88F2CB8AC9FE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haxan Gulch PokerUITests/Pods-Haxan Gulch PokerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57E9ACBFC9F4B1EA4F02A865 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Haxan Gulch Poker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B5054DE51ED4042E0F49069 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haxan Gulch PokerUITests/Pods-Haxan Gulch PokerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E5B9CDDDCD0D8A656F60884 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haxan Gulch PokerTests/Pods-Haxan Gulch PokerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3426C44E6383AADC00F7BAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Haxan Gulch PokerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A89CD245DEA2594EB0A752 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Haxan Gulch PokerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA655F7FEBD2AD450CAFB1B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haxan Gulch PokerTests/Pods-Haxan Gulch PokerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6C31F2B4E6E3DF38B0D259C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haxan Gulch Poker/Pods-Haxan Gulch Poker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB49FAD1E1ADC9C00D41D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAF98361F5106C0006F576C /* Room.m in Sources */,
+				1A880E531F64B41500B0EF21 /* IAPProvider.m in Sources */,
+				1AB49FC21E1ADC9C00D41D91 /* Haxan_Gulch_Poker.xcdatamodeld in Sources */,
+				1A610E3D1F5AE31F00F062D5 /* HGPGameSelectionViewController.m in Sources */,
+				1AB49FBC1E1ADC9C00D41D91 /* ViewController.m in Sources */,
+				1AAF982D1F45072F006F576C /* BarkProvider.m in Sources */,
+				1AB49FF81E1B2E4E00D41D91 /* Card.m in Sources */,
+				1AB49FB91E1ADC9C00D41D91 /* AppDelegate.m in Sources */,
+				1AB49FF41E1B2BB200D41D91 /* HGPGameAceyDeuceyViewController.m in Sources */,
+				1AAF98241F42678A006F576C /* HGPCardDisplay.m in Sources */,
+				1A687F721EBE556B00C17E1D /* HGPGameIntroViewController.m in Sources */,
+				1A0A51301ECA2BA40089D1E8 /* PlayerRecordProvider.m in Sources */,
+				1AB49FB61E1ADC9C00D41D91 /* main.m in Sources */,
+				1A0A512D1ECA288C0089D1E8 /* PlayerRecord.m in Sources */,
+				1A0F59941F3FC9160012AD21 /* HGPGameDayBaseBallViewController.m in Sources */,
+				1A610E3A1F57962700F062D5 /* HGPCreditsViewController.m in Sources */,
+				1ADF995B1FBC752300ECE539 /* BetEvaluator.m in Sources */,
+				1A0A51061EC9CB090089D1E8 /* HGPDialogCard.m in Sources */,
+				1AAF982A1F426AD6006F576C /* HGPTutorialViewController.m in Sources */,
+				1A0A51091EC9EE430089D1E8 /* HGPCharacterSceneViewController.m in Sources */,
+				1AB49FFB1E1B2E5B00D41D91 /* Player.m in Sources */,
+				1AFBD9EC1F7607B0002550EB /* HGPGameHighLowViewController.m in Sources */,
+				1AB49FED1E1ADDFE00D41D91 /* HGPBaseGameViewController.m in Sources */,
+				1AAF98301F4BC08E006F576C /* HGPBaseSevenCardStudGameViewController.m in Sources */,
+				1AFBDA0A1F78A3B4002550EB /* HGPGameFollowTheQueenViewController.m in Sources */,
+				1A687F681EBE28E300C17E1D /* Constants.m in Sources */,
+				1A10B2CD1ECB7A4600325B50 /* UIFont+Extensions.m in Sources */,
+				1A91DC971EC0FCA800D5909C /* HGPModal.m in Sources */,
+				1A8538A51F2019B100BD5094 /* HandEvaluation.m in Sources */,
+				1A8538A21F2017B400BD5094 /* HandEvaluator.m in Sources */,
+				1A7C40E51F224F5700715711 /* HGPGameAnacondaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB49FC91E1ADC9C00D41D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB49FD21E1ADC9C00D41D91 /* Haxan_Gulch_PokerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB49FD41E1ADC9C00D41D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB49FDD1E1ADC9C00D41D91 /* Haxan_Gulch_PokerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB49FCF1E1ADC9C00D41D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB49FB01E1ADC9C00D41D91 /* Haxan Gulch Poker */;
+			targetProxy = 1AB49FCE1E1ADC9C00D41D91 /* PBXContainerItemProxy */;
+		};
+		1AB49FDA1E1ADC9C00D41D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB49FB01E1ADC9C00D41D91 /* Haxan Gulch Poker */;
+			targetProxy = 1AB49FD91E1ADC9C00D41D91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AB49FBD1E1ADC9C00D41D91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB49FBE1E1ADC9C00D41D91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AB49FC51E1ADC9C00D41D91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB49FC61E1ADC9C00D41D91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AB49FDF1E1ADC9C00D41D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AB49FE01E1ADC9C00D41D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB49FE21E1ADC9C00D41D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B363723393719C966C014A1 /* Pods-Haxan Gulch Poker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K4V6RQJ7DL;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/cdahlen/haxangulchpoker/Haxan Gulch Poker/PrefixHeader.pch";
+				INFOPLIST_FILE = "Haxan Gulch Poker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roundthefire.devilshandpoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1AB49FE31E1ADC9C00D41D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C195BBEFA8D729CFA2B0A236 /* Pods-Haxan Gulch Poker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K4V6RQJ7DL;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/cdahlen/haxangulchpoker/Haxan Gulch Poker/PrefixHeader.pch";
+				INFOPLIST_FILE = "Haxan Gulch Poker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roundthefire.devilshandpoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1AB49FE51E1ADC9C00D41D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811F554572BE6C65AA56F889 /* Pods-Haxan Gulch PokerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Haxan Gulch PokerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Team-Wetigan.Haxan-Gulch-PokerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haxan Gulch Poker.app/Haxan Gulch Poker";
+			};
+			name = Debug;
+		};
+		1AB49FE61E1ADC9C00D41D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A35A74BB7F8B845D03E59D /* Pods-Haxan Gulch PokerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Haxan Gulch PokerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Team-Wetigan.Haxan-Gulch-PokerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haxan Gulch Poker.app/Haxan Gulch Poker";
+			};
+			name = Release;
+		};
+		1AB49FE81E1ADC9C00D41D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C82C8FB4372A8439E86FAFF /* Pods-Haxan Gulch PokerUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Haxan Gulch PokerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Team-Wetigan.Haxan-Gulch-PokerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Haxan Gulch Poker";
+			};
+			name = Debug;
+		};
+		1AB49FE91E1ADC9C00D41D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A891F96564E22573457BEA95 /* Pods-Haxan Gulch PokerUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Haxan Gulch PokerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Team-Wetigan.Haxan-Gulch-PokerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Haxan Gulch Poker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB49FAC1E1ADC9C00D41D91 /* Build configuration list for PBXProject "Haxan Gulch Poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB49FDF1E1ADC9C00D41D91 /* Debug */,
+				1AB49FE01E1ADC9C00D41D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB49FE11E1ADC9C00D41D91 /* Build configuration list for PBXNativeTarget "Haxan Gulch Poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB49FE21E1ADC9C00D41D91 /* Debug */,
+				1AB49FE31E1ADC9C00D41D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB49FE41E1ADC9C00D41D91 /* Build configuration list for PBXNativeTarget "Haxan Gulch PokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB49FE51E1ADC9C00D41D91 /* Debug */,
+				1AB49FE61E1ADC9C00D41D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB49FE71E1ADC9C00D41D91 /* Build configuration list for PBXNativeTarget "Haxan Gulch PokerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB49FE81E1ADC9C00D41D91 /* Debug */,
+				1AB49FE91E1ADC9C00D41D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1AB49FC01E1ADC9C00D41D91 /* Haxan_Gulch_Poker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1AB49FC11E1ADC9C00D41D91 /* Haxan_Gulch_Poker.xcdatamodel */,
+			);
+			currentVersion = 1AB49FC11E1ADC9C00D41D91 /* Haxan_Gulch_Poker.xcdatamodel */;
+			path = Haxan_Gulch_Poker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1AB49FA91E1ADC9C00D41D91 /* Project object */;
+}

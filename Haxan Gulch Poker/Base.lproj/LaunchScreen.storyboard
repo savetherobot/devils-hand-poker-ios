@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="A-D-K-FireTableBG" translatesAutoresizingMaskIntoConstraints="NO" id="xxb-Ky-YH6">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="ths-aR-sVZ">
+                                <rect key="frame" x="42" y="0.0" width="351" height="355"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title_cards" translatesAutoresizingMaskIntoConstraints="NO" id="6IX-0K-9vl">
+                                <rect key="frame" x="407" y="47" width="240" height="283"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="dNO-yG-67w"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ths-aR-sVZ" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="1eV-9Y-yO1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6IX-0K-9vl" secondAttribute="trailing" id="DKI-uG-7Pv"/>
+                            <constraint firstItem="6IX-0K-9vl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ths-aR-sVZ" secondAttribute="trailing" constant="14" id="KJQ-hF-Eou"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xxb-Ky-YH6" secondAttribute="trailing" id="TEb-AE-RQO"/>
+                            <constraint firstItem="ths-aR-sVZ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="22" id="aZM-JK-Vne"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="6IX-0K-9vl" secondAttribute="bottom" constant="45" id="g2f-tw-BRC"/>
+                            <constraint firstItem="xxb-Ky-YH6" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="l6f-X6-AHe"/>
+                            <constraint firstItem="xxb-Ky-YH6" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="plH-ag-xty"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="xxb-Ky-YH6" secondAttribute="bottom" id="qpW-0b-Xhg"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="ths-aR-sVZ" secondAttribute="bottom" constant="20" id="rT9-K2-sFh"/>
+                            <constraint firstItem="6IX-0K-9vl" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="47" id="y8d-4P-GfA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.724137931034484" y="373.60000000000002"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="A-D-K-FireTableBG" width="1920" height="1080"/>
+        <image name="title" width="1089" height="926"/>
+        <image name="title_cards" width="788" height="849"/>
+    </resources>
+</document>
