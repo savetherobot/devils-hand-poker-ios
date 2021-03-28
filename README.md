@@ -6,6 +6,10 @@ DEVIL'S HAND POKER
 Developed by Chris Dahlen
 Art by Rich Woodall
 
+![IMG_1823](https://user-images.githubusercontent.com/1532658/112754495-5cdafd80-8faa-11eb-84a5-1658e6d85be8.PNG)
+
+![IMG_1826](https://user-images.githubusercontent.com/1532658/112754501-5f3d5780-8faa-11eb-91d1-e1f84a8f08d7.PNG)
+
 Music restored and recreated on player piano by Tom Brown Records, via archive.org. Public domain.
 Songs include:
 
