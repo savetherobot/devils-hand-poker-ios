@@ -1,14 +1,15 @@
 # devils-hand-poker-ios
-Original version of Devil's Hand Poker. Released on the App Store on 2017. I am currently working on a web version in VueJS. 
+Original version of Devil's Hand Poker. Released on the App Store on 2017. I am currently working on a web version in Vue.JS. 
 
 DEVIL'S HAND POKER
 
 Developed by Chris Dahlen
+
 Art by Rich Woodall
 
-![IMG_1823](https://user-images.githubusercontent.com/1532658/112754495-5cdafd80-8faa-11eb-84a5-1658e6d85be8.PNG)
+![IMG_1823](https://user-images.githubusercontent.com/1532658/112756118-9f540880-8fb1-11eb-82e1-8abaa6057d1e.PNG)
 
-![IMG_1826](https://user-images.githubusercontent.com/1532658/112754501-5f3d5780-8faa-11eb-91d1-e1f84a8f08d7.PNG)
+![IMG_1826](https://user-images.githubusercontent.com/1532658/112756119-a2e78f80-8fb1-11eb-9f3a-be78398d8133.PNG)
 
 Music restored and recreated on player piano by Tom Brown Records, via archive.org. Public domain.
 Songs include:
