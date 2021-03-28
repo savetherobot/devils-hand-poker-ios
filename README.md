@@ -3,7 +3,8 @@ Original version of Devil's Hand Poker. Released on the App Store on 2017. I am 
 
 DEVIL'S HAND POKER
 
-by Chris Dahlen & Rich Woodall
+Developed by Chris Dahlen
+Art by Rich Woodall
 
 Music restored and recreated on player piano by Tom Brown Records, via archive.org. Public domain.
 Songs include:
